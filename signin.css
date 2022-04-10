@@ -22,7 +22,7 @@ padding: 10px;
 }
 
 tr :nth-child(even) {
-background-color: rgb(190, 127, 31);
+background-color: linear-gradient(rgb(190, 127, 31), rgb(179, 190, 31));
 }
 
 tr :nth-child(odd) {
