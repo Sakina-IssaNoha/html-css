@@ -40,25 +40,38 @@ body{
 background-color: #555;
 }
 
-h1{
-font-size: 40%;
+
+video{
+    position-center: 70px;
+    width: 800px;
+    height: 800px;
+}
+table {
+    width: 400px;
+   /* border-spacing: 40px;*/
 }
 
-    ol {
-    list-style: disc;
-    }
-    body{
-        background-image: url("/images/jannis-lucas-5B0EXiwdJrg-unsplash.jpg");
-background-position: calc();
-background-size: cover;
-background-repeat: no-repeat;
-
+th {
+text-align: left;
 }
 
-   .color-overlay{
-       width: 100%;
-       height: 100%;
-       color: #000;
-       opacity: 7;
-   }
-   
+table ,th,td {
+border: 1px solid #000;
+border-collapse:collapse ;
+}
+
+th,td {
+padding: 10px;
+}
+
+tr :nth-child(even) {
+background-color: rgb(190, 127, 31);
+}
+
+tr :nth-child(odd) {
+background-color: rgb(238, 229, 213);
+}
+
+body{
+    background-color: #000;
+}
